@@ -18,9 +18,10 @@ This data then needs to be mapped to frequencies and notes to be played.
 This data can be a set of random numbers generated via th rules and the
 emotions
 
+```
 Emotion-----|---Rule 1
             |---Rule 2
-
+```
 We can pick the rule randomly and then move to generate the sequence,
 the sequence will have a length (beats * number of beats) There also
 needs to be a denomination of half, quater, eighths etc. This could be
@@ -43,4 +44,7 @@ octave.
 An example of note rules could be:
 Aaroh : C C# D E F G G# B C
 Avroh : C B G# G F E D C# C
+
+
+![Alt text](/Readme_Files/Diagram1.jpeg?raw=true "Basic Architecture")
 
