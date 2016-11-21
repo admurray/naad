@@ -48,3 +48,9 @@ Avroh : C B G# G F E D C# C
 
 ![Alt text](/Readme_Files/Diagram1.jpeg?raw=true "Basic Architecture")
 
+## Compile
+gcc -o openal_play_monday   test.c  -lopenal -lm
+
+## Run
+
+./openal_play_monday
