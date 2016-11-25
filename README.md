@@ -48,9 +48,22 @@ Avroh : C B G# G F E D C# C
 
 ![Alt text](/Readme_Files/Diagram1.jpeg?raw=true "Basic Architecture")
 
+As an example I found a great segment of code and will use it. 
+This was obtained from:
+http://codereview.stackexchange.com/questions/83504/basic-c-tone-generator
+
+
+
 ## Compile
-gcc -o openal_play_monday   test.c  -lopenal -lm
 
-## Run
+```
+g++ -W -Wall -pedantic -std=c++11 main.cpp tone.cpp
+```
+## Running
+``` 
+./a.out
+```
 
-./openal_play_monday
+## Play
+
+``` aplay out -r 44100 -f S16_LE (or S16_BE if you're on a big-endian system```
